@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>顔認証システムの登録</title>
+    </head>
+    <body>
+        <!-- <a href="#" onclick="history.back(-1); return false;">back</a> -->
+        <div class = "camera">
+            <video id="video" width="640" height="480" autoplay></video>
+            <canvas id="canvas" width="640" height="480">area</canvas>
+            <input type="text" id="user" placeholder="名前を入力してください">
+            <button id="snap" onclick="captureFrame()">Snap Photo</button>
+        </div>
+        <script src="register_face.js"></script>
+    </body>
+</html>
